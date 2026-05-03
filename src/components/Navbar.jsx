@@ -9,7 +9,7 @@ const Navbar = () => {
     { name: "Stats", path: "/stats", icon: "/stats-icon.png" },
   ];
   return (
-    <div className="navbar bg-base-100 px-4 md:px-10 border-none ">
+    <div className="navbar bg-base-100 px-4 md:px-10 border-none sticky top-0 z-50 bg-white shadow">
       <div className="flex-1">
         <Link href="/">
           <img src="/logo.png" alt="KeenKeeper" className="h-10" />
