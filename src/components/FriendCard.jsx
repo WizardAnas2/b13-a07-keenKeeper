@@ -21,7 +21,7 @@ const getStatusColor = (days) => {
         </div>
         <p className="text-sm text-gray-500 line-clamp-1 mt-2">{friend.bio}</p>
         <div className="card-actions mt-4 w-full">
-          <Link href={`/friend/${friend.id}`} className="btn btn-primary btn-sm btn-block">
+          <Link href={`/friend/${friend.id}`} className="btn btn-primary btn-lg bg-green-800 border-none btn-block">
             View Profile
           </Link>
         </div>
