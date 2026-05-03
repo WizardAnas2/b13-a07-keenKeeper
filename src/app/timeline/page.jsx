@@ -27,13 +27,13 @@ export default function Timeline() {
   return (
     <div className="container mx-auto px-4 py-10 max-w-2xl">
       <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
-        <h1 className="text-3xl font-bold text-primary">
+        <h1 className="text-4xl font-bold text-green-800">
           Interaction History
         </h1>
         {history.length > 0 && (
           <button
             onClick={clearAllHistory}
-            className="btn btn-outline btn-error btn-sm"
+            className="btn btn-primary btn-lg bg-green-800 border-none"
           >
             Clear All History
           </button>
@@ -41,9 +41,7 @@ export default function Timeline() {
       </div>
       {history.length === 0 ? (
         <div className="text-center text-gray-400 mt-20">
-          <div className="text-5xl mb-4 text-gray-200">📅</div>
-          <p className="text-lg font-medium">No interactions logged yet.</p>
-          <p className="text-sm">Time to reach out to a friend!</p>
+          <p className="text-lg font-medium">No interactions yet</p>
         </div>
       ) : (
         <ul className="steps steps-vertical w-full">
@@ -54,7 +52,7 @@ export default function Timeline() {
                   {item.friendName}
                 </span>
                 <div className="flex items-center gap-3 mt-2">
-                  <span className="badge badge-primary badge-outline font-semibold uppercase text-[10px] tracking-wider">
+                  <span className="badge badge-primary badge-outline font-bold uppercase text-[10px] tracking-wider bg-green-800 text-white text-xl">
                     {item.type}
                   </span>
                   <span className="text-sm text-gray-500 font-medium">
