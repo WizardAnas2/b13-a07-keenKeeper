@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Leo Messi",
+    "picture": "https://assets.goal.com/images/v3/bltd58c4d60ecd9275e/GOAL_-_Blank_WEB_-_Facebook_-_2023-06-13T135350.847.png?auto=webp&format=pjpg&width=3840&quality=60",
+    "email": "leomessi@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Studied computer science together and shares a love for startups.",
+    "goal": 14,
+    "next_due_date": "2026-05-02"
+  },
+  {
+    "id": 2,
+    "name": "Cristiano Ronaldo",
+    "picture": "https://assets.goal.com/images/v3/blt2aaca933046f8b00/Cristiano%20Ronaldo%20Portugal%202024%20(4).jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    "email": "cr7@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["work", "friend"],
+    "bio": "Colleague who enjoys design discussions and coffee breaks.",
+    "goal": 10,
+    "next_due_date": "2026-05-05"
+  },
+  {
+    "id": 3,
+    "name": "Ricardo Kaka",
+    "picture": "https://library.sportingnews.com/styles/twitter_card_120x120/s3/2021-10/kaka-061914-ap-ftrjpg_1ma4j4278gbz71vi0afps8q9w8.jpg?itok=DjVPY9HH",
+    "email": "kaka@gmail.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["gym", "buddy"],
+    "bio": "Workout partner who keeps pushing limits every session.",
+    "goal": 12,
+    "next_due_date": "2026-04-28"
+  },
+  {
+    "id": 4,
+    "name": "Neymar Jr",
+    "picture": "https://www.denverpost.com/wp-content/uploads/2017/08/neymar.jpg?w=1800&resize=1800,1800",
+    "email": "neymar@gmail.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["school", "old friend"],
+    "bio": "Childhood friend who loves reminiscing old memories.",
+    "goal": 20,
+    "next_due_date": "2026-04-26"
+  },
+  {
+    "id": 5,
+    "name": "Luis Suarez",
+    "picture": "https://platform.barcablaugranes.com/wp-content/uploads/sites/21/chorus/uploads/chorus_asset/file/19913782/502035744.jpg.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400",
+    "email": "suarez@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["gaming", "close friend"],
+    "bio": "Gaming buddy always up for late-night multiplayer sessions.",
+    "goal": 7,
+    "next_due_date": "2026-05-01"
+  },
+  {
+    "id": 6,
+    "name": "Paolo Maldini",
+    "picture": "https://e2.365dm.com/08/10/800x600/PaoloMaldini_1369005.jpg?20081023161130",
+    "email": "paolomaldini@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["university", "friend"],
+    "bio": "University friend passionate about literature and writing.",
+    "goal": 10,
+    "next_due_date": "2026-04-30"
+  },
+  {
+    "id": 7,
+    "name": "Luka Modric",
+    "picture": "https://preview3.assetsadobe.com/is/image/realmadrid/ND_SUPERCOPA_RM_ATALANTA_TROFEO_MODRIC_AV33565?$Mobile$&fit=wrap",
+    "email": "modric@gmail.com",
+    "days_since_contact": 14,
+    "status": "overdue",
+    "tags": ["business", "network"],
+    "bio": "Entrepreneur friend who shares insights on business growth.",
+    "goal": 12,
+    "next_due_date": "2026-04-27"
+  },
+  {
+    "id": 8,
+    "name": "Andres Iniesta",
+    "picture": "https://i.cbc.ca/ais/1.2674962,1402681322000/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1180%2C663%29%3B",
+    "email": "iniesta@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["travel", "friend"],
+    "bio": "Travel enthusiast who plans spontaneous trips frequently.",
+    "goal": 8,
+    "next_due_date": "2026-05-03"
+  }
+]
