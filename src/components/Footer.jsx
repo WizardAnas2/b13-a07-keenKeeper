@@ -12,18 +12,18 @@ const Footer = () => {
           <h3 className="text-lg font-medium mb-4">Social Links</h3>
           <div className="flex gap-4 justify-center">
             <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition-all hover:scale-110">
-              <img src="/instagram.png" alt="Instagram" className="w-5 h-5 object-contain" />
+              <img src="/instagram.png" alt="Instagram" className="w-10 h-10 object-contain" />
             </a>
             <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition-all hover:scale-110">
-              <img src="/facebook.png" alt="Facebook" className="w-5 h-5 object-contain" />
+              <img src="/facebook.png" alt="Facebook" className="w-10 h-10 object-contain" />
             </a>
             <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition-all hover:scale-110">
-              <img src="/twitter.png" alt="Twitter" className="w-5 h-5 object-contain" />
+              <img src="/twitter.png" alt="Twitter" className="w-10 h-10 object-contain" />
             </a>
           </div>
         </div>
         <div className="w-full border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs md:text-sm text-gray-400">
-          <p>&copy; 2026 KeenKeeper. All rights reserved.</p>
+          <p>&copy; 2026 KeenKeeper. All rights reserved by Anas</p>
           <div className="flex gap-6">
             <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="#" className="hover:text-white transition-colors">Terms of Service</Link>
