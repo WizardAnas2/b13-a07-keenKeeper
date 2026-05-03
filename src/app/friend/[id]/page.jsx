@@ -51,14 +51,14 @@ export default function FriendDetails() {
                 ))}
               </div>
             </div>
-            <p className="mt-4 text-gray-500 italic text-sm">
+            <p className="mt-4 text-gray-500 text-sm">
   {friend.bio}
 </p>
           </div>
           <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden text-sm font-semibold">
-            <button className="w-full py-4 px-6 text-center hover:bg-gray-50 border-b border-gray-50">Snooze 2 Weeks</button>
-            <button className="w-full py-4 px-6 text-center hover:bg-gray-50 border-b border-gray-50">Archive</button>
-            <button className="w-full py-4 px-6 text-center text-red-500 hover:bg-red-50">Delete</button>
+            <button className="w-full py-4 px-6 text-center hover:bg-gray-50 border-b border-gray-50 text-xl">Snooze 2 Weeks</button>
+            <button className="w-full py-4 px-6 text-center hover:bg-gray-50 border-b border-gray-50 text-xl">Archive</button>
+            <button className="w-full py-4 px-6 text-center text-red-500 hover:bg-red-50 text-xl">Delete</button>
           </div>
         </div>
         <div className="lg:col-span-8 space-y-6">
@@ -75,6 +75,10 @@ export default function FriendDetails() {
               <p className="text-2xl font-bold text-gray-800 mt-2">May 20, 2026</p>
               <p className="text-xs text-gray-400 font-medium uppercase mt-2">Next Due</p>
             </div>
+          </div>
+          <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+            <h2 className="text-2xl text-gray-500 font-medium mt-2 pb-2">Relationship goal</h2>
+            <p className="text-md text-gray-400 font-medium  mt-2">Connect every 30days</p>
           </div>
           <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
             <h3 className="font-bold text-gray-700 text-lg mb-6">Quick Check-In</h3>
